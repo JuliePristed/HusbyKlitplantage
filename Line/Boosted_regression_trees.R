@@ -8,11 +8,6 @@
 #### LOAD NEEDDED PACKAGES ####
 #--------------------------------------------#
 
-install.packages("NCmisc")
-library(NCmisc)
-list.functions.in.file("C:/Users/Line/Desktop/DataR/Scripts/BRT-samlet.R", alphabetic = TRUE)
-# Tells which functions comes from which package
-
 library(rpart) # for building trees
 library(rpart.plot)# for plotting regression trees
 library(caret) # classification and regression training
